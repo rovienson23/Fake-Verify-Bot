@@ -6,7 +6,7 @@ import os
 
 ################### change these to your liking ###################
 
-token = "OTc4OTAzNzA5MDA0MjMwNzA2.GkWm2X.X2BEPavmqACTbmkzpua9Z8BFNu4HlK8gg3WiXE"
+token = "YOUR TOKEN"
 prefix = "!"
 title = "Please Complete Verification"
 desc = "To verify your account, please follow the user below!"
@@ -43,4 +43,4 @@ async def verify(ctx):
 
 keep_alive.keep_alive()  
 token = os.environ.get("TOKEN")
-client.run("OTc4OTAzNzA5MDA0MjMwNzA2.GkWm2X.X2BEPavmqACTbmkzpua9Z8BFNu4HlK8gg3WiXE")
+client.run("YOUR TOKEN")
